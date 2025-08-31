@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/WEBSITE-BUSINESS/static/css/main.e322cc58.css",
+    "main.js": "/WEBSITE-BUSINESS/static/js/main.0dc2d619.js",
+    "static/js/453.f35b1f7b.chunk.js": "/WEBSITE-BUSINESS/static/js/453.f35b1f7b.chunk.js",
+    "static/media/roame.jpg": "/WEBSITE-BUSINESS/static/media/roame.51d72cdd07e2dcbfe9c2.jpg",
+    "static/media/background.jpg": "/WEBSITE-BUSINESS/static/media/background.6062758b2495e334129e.jpg",
+    "static/media/woman.jpg": "/WEBSITE-BUSINESS/static/media/woman.d69550de595f6149ddd0.jpg",
+    "static/media/hu.jpg": "/WEBSITE-BUSINESS/static/media/hu.557433c6994fd950b973.jpg",
+    "static/media/laete.jpg": "/WEBSITE-BUSINESS/static/media/laete.1ebc06652c16f27fcd3b.jpg",
+    "static/media/home.jpg": "/WEBSITE-BUSINESS/static/media/home.5340fdcb38ba1a30ca3f.jpg",
+    "static/media/doaer.jpg": "/WEBSITE-BUSINESS/static/media/doaer.fce600b20065949f89c9.jpg",
+    "static/media/tabole.jpg": "/WEBSITE-BUSINESS/static/media/tabole.ead551b62cd0da74a249.jpg",
+    "static/media/livengs.jpg": "/WEBSITE-BUSINESS/static/media/livengs.5a739bf9affb50acde48.jpg",
+    "static/media/living.jpg": "/WEBSITE-BUSINESS/static/media/living.f9e993027a31350c4a54.jpg",
+    "static/media/waitgh.jpg": "/WEBSITE-BUSINESS/static/media/waitgh.61bdd2b9b1ba961daae7.jpg",
+    "static/media/joope.jpg": "/WEBSITE-BUSINESS/static/media/joope.c5605b1669fbe9f07fa6.jpg",
+    "index.html": "/WEBSITE-BUSINESS/index.html",
+    "main.e322cc58.css.map": "/WEBSITE-BUSINESS/static/css/main.e322cc58.css.map",
+    "main.0dc2d619.js.map": "/WEBSITE-BUSINESS/static/js/main.0dc2d619.js.map",
+    "453.f35b1f7b.chunk.js.map": "/WEBSITE-BUSINESS/static/js/453.f35b1f7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e322cc58.css",
+    "static/js/main.0dc2d619.js"
+  ]
+}
