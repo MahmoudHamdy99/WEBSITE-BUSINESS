@@ -27,14 +27,14 @@ export default function Main() {
             <div className="overlay"></div>
             <div className="main-content" data-aos="fade-up">
                 <Grid className='main-content-text' container spacing={0}>
-                     <Grid className='main-text-h1' size={12}>
+                     <Grid className='main-text-h1' item xs={12}>
                         <h1 data-aos="fade-up" data-aos-delay="100">
                           Interior Design
                           <br/> by Stephanie Smith
                         </h1>
                     </Grid>
                    
-                    <Grid className='main-text-p' size={8}>
+                    <Grid className='main-text-p' item xs={8}>
                      <div className="main-btn">
                         <p data-aos="fade-up" data-aos-delay="200">I'll help you redefine your space into a reflection of your unique style and personality. Together, let's infuse creativity, functionality, and elegance into every corner, crafting spaces that inspire and delight.</p>
                         <a href="#service" className="btn btn-glass" data-aos="fade-up" data-aos-delay="300">
@@ -118,7 +118,7 @@ export default function Main() {
         </div>
         <div className='review-main'>
             <div className='review-content'>
-                <h1>roniclesInterior design chronicles</h1>
+                <h1>Interior design chronicles</h1>
             <p>My Journey Through Inspirational Spaces, Featuring Some Recently Designed Corners.</p>
             </div>
               

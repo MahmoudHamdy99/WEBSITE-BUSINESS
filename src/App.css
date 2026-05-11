@@ -7,9 +7,9 @@
 }
 
 :root {
-  --color- : #2563eb;
-  --color-blak: #ffffff;
-  --color-white: #0f172a;
+  --color-primary: #2563eb;
+  --color-bg: #ffffff;
+  --color-text: #0f172a;
   --color-gray: #64748b;
   --background: #f8fafc;
   --background-card: #ffffff;
@@ -22,9 +22,9 @@
 }
 
 [data-theme='dark'] {
-  --color- : #e2a600;
-  --color-blak: #24242a;
-  --color-white: #fff;
+  --color-primary: #e2a600;
+  --color-bg: #24242a;
+  --color-text: #fff;
   --color-gray: #d3d3d3;
   --background: linear-gradient(#282c34, #282c34d6);
   --background-card: #282c34;
@@ -35,8 +35,8 @@
 }
 
 body {
-  background-color: var(--color-blak);
-  color: var(--color-white);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   font-family: 'Cairo', 'Almarai', sans-serif;
   overflow-x: hidden;
   line-height: 1.6;
@@ -45,7 +45,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 p, span, a, li {
@@ -92,7 +92,7 @@ p, span, a, li {
 }
 
 .header.sticky .logo a {
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 .header ul {
@@ -114,11 +114,11 @@ p, span, a, li {
 }
 
 .header.sticky ul li a {
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 .header ul li a:hover {
-  color: var(--color-);
+  color: var(--color-primary);
 }
 
 h1, h2 {
@@ -227,12 +227,12 @@ h1, h2 {
 
 .home-main .circle:hover {
   transform: translateX(-50%) translateY(-5px);
-  background: var(--color-);
-  border-color: var(--color-);
+  background: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .home-main .main-content .circle svg{
-  color: var(--color-);
+  color: var(--color-primary);
   transform: translate(0%, 50%);
   font-size: 2em;
   margin-top: 5px;
@@ -296,18 +296,18 @@ h1, h2 {
   display: block;
   width: 20%;
   height: 1px;
-  background-color: var(--color-white);
+  background-color: var(--color-text);
   margin: 10px auto;
 }
 
 .reviews .grid-container .icon svg {
   font-size: 4em ;
-  color: var(--color-);
+  color: var(--color-primary);
 }
 
 .reviews .grid-container h2 {
   font-size: 3em ;
-  color: var(--color-);
+  color: var(--color-primary);
   margin: 20px 0;
 }
 
@@ -374,8 +374,8 @@ h1, h2 {
 }
 
 .service .container .cards .card-content {
-  background: var(--color-blak);
-  color: var(--color-white);
+  background: var(--color-bg);
+  color: var(--color-text);
   padding: 30px;
 }
 
@@ -396,7 +396,7 @@ h1, h2 {
   gap: 8px;
   margin-left: auto;
   padding: 12px 25px;
-  background-color: var(--color-);
+  background-color: var(--color-primary);
   color: #ffffff;
   border: none;
   border-radius: var(--radius);
@@ -464,7 +464,7 @@ h1, h2 {
 .about .container .about-content .about-info span{
   font-size: 1.3em;
   margin : 10px 0;
-  color: var(--color-);
+  color: var(--color-primary);
 }
 
 .about .container .about-content p {
@@ -485,7 +485,7 @@ h1, h2 {
   justify-content: center;
   flex-basis: 50%;
   text-align: center;
-  background: var(--color-);
+  background: var(--color-primary);
 }
 
 .review-main .review-content h1{
@@ -514,7 +514,7 @@ h1, h2 {
 .customerReviews {
   width: 100%;
   padding: 100px 0;
-  color: var(--color-white);
+  color: var(--color-text);
   margin: 0;
   position: relative;
 }
@@ -585,7 +585,7 @@ h1, h2 {
 .customerReviews .slide h2 {
   font-size: 1.4em;
   margin-bottom: 20px;
-  color: var(--color-);
+  color: var(--color-primary);
 }
 
 .customerReviews .slide p {
@@ -602,14 +602,14 @@ h1, h2 {
   border-radius: 50%;
   margin: 0 8px;
   background-color: transparent;
-  border: 2px solid var(--color-white);
+  border: 2px solid var(--color-text);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .customerReviews .custom .custom-icon span.active {
-  background-color: var(--color-);
-  border-color: var(--color-);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   transform: scale(1.2);
 }
 
@@ -684,7 +684,7 @@ h1, h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-);
+  background-color: var(--color-primary);
   margin-right: 20px;
 }
 
@@ -726,7 +726,7 @@ h1, h2 {
   max-width: 1100px;
   margin: auto;
   padding: 40px;
-  background: var(--color-blak);
+  background: var(--color-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   border: none;
@@ -773,7 +773,7 @@ textarea {
     border-radius: 6px;
     font-size: 1rem;
     background: var(--input-bg);
-    color: var(--color-white);
+    color: var(--color-text);
     transition: border-color 0.2s;
     margin-bottom: 4px;
 }
@@ -796,7 +796,7 @@ textarea {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: var(--color-white);
+    color: var(--color-text);
     border-radius: var(--radius);
     font-size: 1.1rem;
     font-weight: 700;
@@ -811,15 +811,15 @@ textarea {
 
 .form .form-container button:hover {
     transform: translateY(-5px);
-    background: var(--color-);
+    background: var(--color-primary);
     color: #ffffff;
-    border-color: var(--color-);
+    border-color: var(--color-primary);
 }
 
 .footer {
   width: 100%;
   height: auto;
-  background-color: var(--color-blak);
+  background-color: var(--color-bg);
   padding: 50px 0;
   text-align: center;
 }
@@ -844,7 +844,7 @@ textarea {
 .footer .footer-content h2 {
   font-size: 1em;
   margin: 10px 0;
-  color: var(--color-);
+  color: var(--color-primary);
 }
 .footer .footer-content p {
   font-size: 0.8em;
@@ -853,7 +853,7 @@ textarea {
 
 .grid-container .icon svg {
   font-size: 4em ;
-  color: var(--color-);
+  color: var(--color-primary);
 }
 
 .footer .footer-header {
@@ -875,7 +875,7 @@ textarea {
 }
 
 .footer .footer-header  ul li a{
-  color: var(--color-white);
+  color: var(--color-text);
   text-decoration: none;
 }
 
@@ -1075,7 +1075,7 @@ textarea {
   .hamburger span {
     display: block;
     height: 3px;
-    background: var(--color-white);
+    background: var(--color-text);
     border-radius: 3px;
     transition: var(--transition);
   }
@@ -1093,7 +1093,7 @@ textarea {
   }
 
   .header.sticky .hamburger span {
-    background: var(--color-white);
+    background: var(--color-text);
   }
 
 
