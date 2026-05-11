@@ -2,20 +2,20 @@
 import GroupIcon from '@mui/icons-material/Group';
 import MapsHomeWorkIcon from '@mui/icons-material/MapsHomeWork';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import QueryBuilderOutlinedIcon from '@mui/icons-material/QueryBuilderOutlined';
 
-import livingImg from '../imegs/tabole.jpg';
-import huImg from '../imegs/hu.jpg';
-import journey from '../imegs/joope.jpg';
-import doaer from '../imegs/doaer.jpg';
-import home from '../imegs/home.jpg';
-import laete from '../imegs/laete.jpg';
-import livengs from '../imegs/livengs.jpg';
-import waitgh from '../imegs/waitgh.jpg';
+import livingImg from '../images/tabole.jpg';
+import huImg from '../images/hu.jpg';
+import journey from '../images/joope.jpg';
+import doaer from '../images/doaer.jpg';
+import home from '../images/home.jpg';
+import laete from '../images/laete.jpg';
+import livengs from '../images/livengs.jpg';
+import waitgh from '../images/waitgh.jpg';
 
 export const data = [{
     id: 1,
@@ -42,21 +42,21 @@ export const Services = [
         id: 1,
         title: "Interior design from scratch ",
         description: "Transform your space into a personalized masterpiece with our comprehensive interior design services. From conceptualization to execution, we'll work closely with you to bring your vision to life, ensuring every detail reflects your unique style and personality.",
-        icon: <ArrowForwardIosIcon/>,
+        icon: <TrendingFlatIcon/>,
         img: livingImg
     },
     {
         id: 2,
         title: "Redesign your house ",
         description: "Revitalize your existing space with our expert interior redesign services. Whether you're looking to update a single room or transform your entire home, we'll breathe new life into your surroundings, maximizing functionality and aesthetic appeal.",
-        icon: <ArrowForwardIosIcon/>,
+        icon: <TrendingFlatIcon/>,
         img: huImg
     },
     {
         id: 3,
         title: "Free consultation",
         description: "Begin your design journey with a complimentary consultation. Let's discuss your ideas, goals, and budget, and explore how our services can help you achieve the home of your dreams. No obligations, just expert advice tailored to your needs.",
-        icon: <ArrowForwardIosIcon/>,
+        icon: <TrendingFlatIcon/>,
         img: journey
     },
 ]

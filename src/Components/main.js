@@ -4,8 +4,8 @@ import Grid from '@mui/material/Grid';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 //////MaterialIcon/////
 //////Data/////
-import Homes from '../imegs/living.jpg'
-import Woman from '../imegs/woman.jpg'
+import Homes from '../images/living.jpg'
+import Woman from '../images/woman.jpg'
 import {Asked, data} from './data.js';
 import {Services} from './data.js';
 import {Reviews} from './data.js';
@@ -16,41 +16,36 @@ import Card from '../Components/cards.js';
 import AskedCards from '../Components/asked.js';
 import CustomerReviews from '../Components/customerReviews.js';
 import Form from './forme.js';
+import CountUp from 'react-countup';
 /////Components//////
 
 
 export default function Main() {
     return (
         <>
-        <div className="home-main" id='home'>
-            <div className="main-content">
-                <Grid className='main-content-text' container spacing={2}>
-                     <Grid className='main-text-h1' size={8}>
-                    <h1>Interior Design
-                     <br/> by Stephanie Smith
-                     </h1>
+        <div className="home-main" id='home' style={{backgroundImage: `url(${Homes})`}}>
+            <div className="overlay"></div>
+            <div className="main-content" data-aos="fade-up">
+                <Grid className='main-content-text' container spacing={0}>
+                     <Grid className='main-text-h1' size={12}>
+                        <h1 data-aos="fade-up" data-aos-delay="100">
+                          Interior Design
+                          <br/> by Stephanie Smith
+                        </h1>
                     </Grid>
                    
-                    <Grid className='main-text-p' size={4}>
+                    <Grid className='main-text-p' size={8}>
                      <div className="main-btn">
-                    <p>I'll help you redefine your space into a reflection of your unique style and personality. Together, let's infuse creativity, functionality, and elegance into every corner, crafting spaces that inspire and delight. Welcome to a partnership where your dream space becomes a shared masterpiece.</p>
-                        <a href="#service" className="btn">
-                            Check services <ArrowForwardIosIcon/>
+                        <p data-aos="fade-up" data-aos-delay="200">I'll help you redefine your space into a reflection of your unique style and personality. Together, let's infuse creativity, functionality, and elegance into every corner, crafting spaces that inspire and delight.</p>
+                        <a href="#service" className="btn btn-glass" data-aos="fade-up" data-aos-delay="300">
+                            Check services <ArrowForwardIosIcon style={{fontSize: '1rem', marginLeft: '8px'}}/>
                         </a>   
-                     </div>
-                     <div className='circle'>
-                        <ArrowDownwardIcon/>
                      </div>
                     </Grid>
                 </Grid>
-                 <div className='line'></div>
             </div>
-            <div className='main-img'>
-                <img src={Homes} alt="home" />
-            </div>
-            <div className='main-title'>
-                <h1>Let's craft something extraordinary together.</h1>
-                <p>Step inside!</p>
+            <div className='circle' data-aos="zoom-in" data-aos-delay="400">
+               <a href="#service"><ArrowDownwardIcon/></a>
             </div>
         </div>
         <div className = "reviews">
@@ -61,7 +56,9 @@ export default function Main() {
                                 <div className="icon">
                                     {item.icon}
                                 </div>
-                                <h2>{item.title}</h2>
+                                <h2>
+                                    <CountUp end={Number(item.title)} duration={2.5} enableScrollSpy scrollSpyOnce />
+                                </h2>
                                 <p>{item.description}</p>
                             </div>
                         </Grid>

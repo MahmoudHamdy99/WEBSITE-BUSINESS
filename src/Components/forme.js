@@ -73,8 +73,8 @@ export default function Form() {
 
     return (
         <div className='form-container'>
-            <h1>Free consultation<br/>Let's discuss your project</h1>
-            <form onSubmit={handleSubmit}>
+            <h1 data-aos="fade-up">Free consultation<br/>Let's discuss your project</h1>
+            <form onSubmit={handleSubmit} data-aos="fade-up" data-aos-delay="100">
                 <div className="form-row">
                     <div>
                         <label htmlFor="name">Name:</label>
